@@ -25,3 +25,15 @@
   border: none;
 }
 
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f6f7f8;
+}
+
+.list-group-item {
+  color: #000000;
+  text-decoration: none;
+}
