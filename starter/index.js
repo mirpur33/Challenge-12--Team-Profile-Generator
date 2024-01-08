@@ -122,7 +122,7 @@ async function promptQuestions() {
     console.log("new guy", newStaffMemberData)
     fs.writeFileSync(
       "./output/index.html",
-      generateTeam(newStaffMemberData),
+      render(newStaffMemberData),
       "utf-8"
     );
   }
